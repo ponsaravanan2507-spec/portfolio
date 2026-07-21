@@ -1,397 +1,135 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-    <title>S. Pon Saravanan | Portfolio</title>
-
-    <!-- CSS -->
-    <link rel="stylesheet" href="style.css">
-
-    <!-- Font Awesome -->
-    <link rel="stylesheet"
-    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
-
-    <!-- Google Font -->
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>J Ahamed Ijaz | Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+  <!-- Font Awesome Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <!-- Vanilla Tilt JS for 3D Card Effect -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/vanilla-tilt/1.8.0/vanilla-tilt.min.js"></script>
 </head>
-
 <body>
 
-<!-- ================= HEADER ================= -->
+  <!-- Interactive Canvas Background -->
+  <canvas id="bg-canvas"></canvas>
 
-<header class="header">
+  <!-- Navigation Bar -->
+  <nav class="navbar">
+    <div class="logo">Ahamed <span>Ijaz</span></div>
+    <ul class="nav-links">
+      <li><a href="#about">About</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#certificates">Certificates</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
 
-    <a href="#" class="logo">
-        Portfolio
-    </a>
+  <!-- Hero / Home Section -->
+  <section class="hero" id="about">
+    <div class="hero-content">
+      <p class="greeting">Hello, I'm</p>
+      <h1>J Ahamed Ijaz</h1>
+      <h3>B.Tech Student & Tech Enthusiast</h3>
+      <p class="bio">
+        Currently pursuing 3rd year B.Tech (2024–2028) at <strong>Sardar Raja College of Engineering</strong>. 
+        Passionate about software development, machine learning, and data analytics.
+      </p>
 
-    <nav class="navbar">
+      <div class="contact-badges">
+        <a href="mailto:ahamedijaz2006@gmail.com"><i class="fas fa-envelope"></i> ahamedijaz2006@gmail.com</a>
+        <a href="tel:9487571460"><i class="fas fa-phone"></i> +91 9487571460</a>
+      </div>
 
-        <a href="#home">Home</a>
-
-        <a href="#about">About</a>
-
-        <a href="#skills">Skills</a>
-
-        <a href="#education">Education</a>
-
-        <a href="#certificates">Certificates</a>
-
-        <a href="#internship">Internship</a>
-
-        <a href="#achievements">Achievements</a>
-
-        <a href="#courses">Courses</a>
-
-        <a href="#contact">Contact</a>
-
-    </nav>
-
-    <button id="theme-toggle">
-        🌙
-    </button>
-
-</header>
-
-<!-- ================= HOME ================= -->
-
-<section class="home" id="home">
-
-<div class="home-content">
-
-<h3>Hello, It's Me</h3>
-
-<h1>S. Pon Saravanan</h1>
-
-<h3>
-B.Tech Artificial Intelligence &
-Data Science Student
-</h3>
-
-<p>
-
-Passionate AI & Data Science student with
-knowledge in Python, Java, C++, HTML,
-CSS and JavaScript.
-
-Interested in Front-End Development,
-Machine Learning, Artificial Intelligence,
-UI/UX Design and Full Stack Development.
-
-</p>
-
-<div class="social-icons">
-    <a href="https://github.com/unnoda-github-username" target="_blank" class="social-icon">
-        <i class="fab fa-github"></i>
-    </a>
-    <a href="https://www.linkedin.com/in/pon-saravanan-s-a5a63b38a?utm_source=share_via&utm_content=profile&utm_medium=member_android"social-icon">
-        <i class="fab fa-linkedin-in"></i>
-    </a>
-    <a href="mailto:ponsaravanan2507@gmail.com" class="social-icon">
-        <i class="fas fa-envelope"></i>
-    </a>
-    <a href="https://instagram.com/unnoda-insta-username" target="_blank" class="social-icon">
-        <i class="fab fa-instagram"></i>
-    </a>
-</div>
-
-  
-<div class="home-buttons">
-
-<a href="resume.pdf" download class="btn">Download Resume</a>
-
-<a href="#contact" class=" btn">Hire Me</a>
-</div>
-
-</div>
-<div class="home-image">
-
-<img src="profile.jpg" alt="S.Pon Saravanan">
-
-</div>
-
-</section>
-
-<!-- About Section starts in Part 1B -->
- <!-- ================= ABOUT ================= -->
-
-<section class="about" id="about">
-
-    <div class="about-container">
-
-        <div class="about-image">
-            <img src="images/about.png" alt="About Image">
-        </div>
-
-        <div class="about-content">
-
-            <h2 class="heading">
-                About <span>Me</span>
-            </h2>
-
-            <p>
-                Hello! I'm <strong>S. Pon Saravanan</strong>, pursuing
-                B.Tech in Artificial Intelligence and Data Science.
-
-                I am passionate about Front-End Development,
-                Artificial Intelligence, Machine Learning,
-                UI/UX Design and Web Technologies.
-
-                I enjoy creating modern responsive websites
-                using HTML, CSS and JavaScript.
-
-                My goal is to become a successful
-                Full Stack Developer and AI Engineer.
-            </p>
-
-            <a href="#contact" class="btn">
-                Contact Me
-            </a>
-
-        </div>
-
+      <a href="#projects" class="btn">View My Work</a>
     </div>
 
-</section>
-
-<!-- ================= SKILLS ================= -->
-
-<section class="skills" id="skills">
-
-    <h2 class="heading">
-        My <span>Skills</span>
-    </h2>
-
-    <div class="skills-container">
-
-        <div class="skill-box">
-            <h3>HTML</h3>
-            <div class="progress">
-                <span data-width="95%"></span>
-            </div>
-            <p>95%</p>
-        </div>
-
-        <div class="skill-box">
-            <h3>CSS</h3>
-            <div class="progress">
-                <span data-width="90%"></span>
-            </div>
-            <p>90%</p>
-        </div>
-
-        <div class="skill-box">
-            <h3>JavaScript</h3>
-            <div class="progress">
-                <span data-width="80%"></span>
-            </div>
-            <p>80%</p>
-        </div>
-
-        <div class="skill-box">
-            <h3>Python</h3>
-            <div class="progress">
-                <span data-width="90%"></span>
-            </div>
-            <p>90%</p>
-        </div>
-
-        <div class="skill-box">
-            <h3>Java</h3>
-            <div class="progress">
-                <span data-width="80%"></span>
-            </div>
-            <p>80%</p>
-        </div>
-
-        <div class="skill-box">
-            <h3>C++</h3>
-            <div class="progress">
-                <span data-width="75%"></span>
-            </div>
-            <p>75%</p>
-        </div>
-
+    <!-- 3D Profile Avatar Container -->
+    <div class="profile-container">
+      <div class="card-3d" data-tilt data-tilt-max="25" data-tilt-speed="400" data-tilt-glare data-tilt-max-glare="0.5">
+        <div class="circle-3d-bg"></div>
+        <img src="https://via.placeholder.com/260" alt="J Ahamed Ijaz Profile" class="profile-img">
+      </div>
     </div>
+  </section>
 
-</section>
-
-<!-- ================= EDUCATION ================= -->
-
-<section class="education" id="education">
-
-    <h2 class="heading">
-        My <span>Education</span>
-    </h2>
-
-    <div class="education-card">
-
-        <div class="education-card">
-            <h3>B.Tech AI & Data Science</h3>
-            <p>Sardar Raja College of Engineering</p>
-            <span>2024 - 2028</span>
-        </div>
-
-        <div class="education-card">
-            <h3>Higher Secondary (12th)</h3>
-            <p>State Board</p>
-            <span>75%</span>
-        </div>
-
-        <div class="education-card">
-            <h3>SSLC (10th)</h3>
-            <p>State Board</p>
-            <span>65%</span>
-        </div>
-
+  <!-- Skills Section -->
+  <section class="section" id="skills">
+    <h2 class="section-title">Technical <span>Skills</span></h2>
+    <div class="skills-grid">
+      <div class="skill-card" data-tilt><i class="fab fa-python"></i><span>Python</span></div>
+      <div class="skill-card" data-tilt><i class="fab fa-java"></i><span>Java</span></div>
+      <div class="skill-card" data-tilt><i class="fab fa-html5"></i><span>HTML5</span></div>
+      <div class="skill-card" data-tilt><i class="fas fa-code"></i><span>C++</span></div>
     </div>
+  </section>
 
-</section>
-
-<!-- Certificates Section starts in Part 1C -->
- <!-- ================= CERTIFICATES ================= -->
-
-<section class="certificates" id="certificates">
-
-    <h2 class="heading">My <span>Certificates</span></h2>
-
-    <div class="certificate-card">
-
-        <div class="certificate-card">
-            <img src="images/certificate1.jpg" alt="Certificate 1">
-            <h3>NPTEL - Data Analytics with Python</h3>
-        </div>
-
-        <div class="certificate-card">
-            <img src="images/certificate2.jpg" alt="Certificate 2">
-            <h3>Python Programming</h3>
-        </div>
-
-        <div class="certificate-card">
-            <img src="images/certificate3.jpg" alt="Certificate 3">
-            <h3>Web Development</h3>
-        </div>
-
+  <!-- Certifications Section -->
+  <section class="section" id="certificates">
+    <h2 class="section-title">My <span>Certifications</span></h2>
+    <div class="cert-grid">
+      <div class="cert-card" data-tilt>
+        <i class="fas fa-award cert-icon"></i>
+        <h3>Python Programming</h3>
+        <p>Issued by: <strong>CADD Expert</strong></p>
+      </div>
+      <div class="cert-card" data-tilt>
+        <i class="fas fa-chart-line cert-icon"></i>
+        <h3>Data Analytics</h3>
+        <p>Certified in Data Science & Business Analytics Concepts.</p>
+      </div>
+      <div class="cert-card" data-tilt>
+        <i class="fas fa-robot cert-icon"></i>
+        <h3>Machine Learning</h3>
+        <p>Hands-on Certification in Predictive Modeling & ML Algorithms.</p>
+      </div>
     </div>
+  </section>
 
-</section>
-
-<!-- ================= INTERNSHIP ================= -->
-
-<section class="internship" id="internship">
-
-    <h2 class="heading">My <span>Internship</span></h2>
-
-    <div class="internship-card">
-
-        <h3>Artificial Intelligence Internship</h3>
-
-        <p>
-            Successfully completed internship in
-            Artificial Intelligence and gained
-            practical knowledge in AI concepts,
-            Machine Learning and Data Analysis.
-        </p>
-
+  <!-- Projects Section -->
+  <section class="section" id="projects">
+    <h2 class="section-title">Featured <span>Projects</span></h2>
+    <div class="projects-grid">
+      <div class="project-card" data-tilt>
+        <div class="project-info">
+          <h3>ML House Price Predictor</h3>
+          <p>Built using Python and Machine Learning algorithms to predict housing prices with high accuracy.</p>
+          <span class="tech-tag">Python</span> <span class="tech-tag">Machine Learning</span>
+        </div>
+      </div>
+      <div class="project-card" data-tilt>
+        <div class="project-info">
+          <h3>Interactive Data Dashboard</h3>
+          <p>An interactive web platform designed to analyze datasets and present key insights graphically.</p>
+          <span class="tech-tag">Data Analytics</span> <span class="tech-tag">HTML</span>
+        </div>
+      </div>
+      <div class="project-card" data-tilt>
+        <div class="project-info">
+          <h3>Student Management System</h3>
+          <p>A fast desktop/console software engineered in C++ and Java for managing college academic records.</p>
+          <span class="tech-tag">Java</span> <span class="tech-tag">C++</span>
+        </div>
+      </div>
     </div>
+  </section>
 
-</section>
-
-<!-- ================= ACHIEVEMENTS ================= -->
-
-<section class="achievements" id="achievements">
-
-    <h2 class="heading">My <span>Achievements</span></h2>
-
-    <div class="achievement-card">
-
-        <div class="achievement-box">
-            <i class="fas fa-trophy"></i>
-            <h3>Academic Achievement</h3>
-            <p>Successfully completed AI & Data Science projects.</p>
-        </div>
-
-        <div class="achievement-card">
-            <i class="fas fa-award"></i>
-            <h3>Certification</h3>
-            <p>Completed NPTEL and technical certification courses.</p>
-        </div>
-
-        <div class="achievement-card">
-            <i class="fas fa-star"></i>
-            <h3>Skill Development</h3>
-            <p>Improved Front-End Development and Programming skills.</p>
-        </div>
-
+  <!-- Contact Section -->
+  <section class="section" id="contact">
+    <h2 class="section-title">Get In <span>Touch</span></h2>
+    <div class="contact-box" data-tilt>
+      <p><i class="fas fa-envelope"></i> ahamedijaz2006@gmail.com</p>
+      <p><i class="fas fa-phone"></i> +91 9487571460</p>
+      <p><i class="fas fa-university"></i> Sardar Raja College of Engineering</p>
     </div>
+  </section>
 
-</section>
+  <footer>
+    <p>&copy; 2026 J Ahamed Ijaz. Built with Passion & Code.</p>
+  </footer>
 
-<!-- ================= COURSES ================= -->
-
-<section class="courses" id="courses">
-
-    <h2 class="heading">My <span>Courses</span></h2>
-
-    <div class="course-card">
-
-        <div class="course-box">
-            <h3>Data Analytics with Python</h3>
-        </div>
-
-        <div class="course-box">
-            <h3>Full Stack Web Development</h3>
-        </div>
-
-        <div class="course-box">
-            <h3>Python Programming</h3>
-        </div>
-
-        <div class="course-box">
-            <h3>Artificial Intelligence Basics</h3>
-        </div>
-
-    </div>
-
-</section>
-
-<!-- ================= CONTACT ================= -->
-
-<section class="contact" id="contact">
-
-    <h2 class="heading">Contact <span>Me</span></h2>
-
-    <form action="#" class="contact-form">
-
-        <input type="text" placeholder="S.Pon saravanan" required>
-
-        <input type="email" placeholder="ponsaravanan2507@gmail.com" required>
-
-        <input type="text" placeholder="91 6380442764">
-
-        <textarea rows="8" placeholder="Your Message"></textarea>
-
-        <input type="submit" value="Send Message" class="btn">
-
-    </form>
-
-</section>
-
-<!-- ================= FOOTER ================= -->
-
-<footer class="footer">
-
-    <p>
-        © 2026 S. Pon Saravanan | All Rights Reserved
-    </p>
-
-</footer>
-
-<!-- ================= JAVASCRIPT ================= -->
-
-<script src="script.js"></script>
-
+  <script src="script.js"></script>
 </body>
 </html>
